@@ -1,7 +1,7 @@
 # User micro-frontend
 login screen and user account creation micro-frontend
 
-'''
+```
 docker built -t user-frontend
 docker run \
     -it \
@@ -12,4 +12,4 @@ docker run \
     -e CHOKIDAR_USEPOLLING=true \
     user-frontend
 
-'''
+```
