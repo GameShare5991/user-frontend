@@ -1,2 +1,15 @@
 # User micro-frontend
-## The purpose of this microservice is to display the user's information onto the page
+login screen and user account creation micro-frontend
+
+'''
+docker built -t user-frontend
+docker run \
+    -it \
+    --rm \
+    -v ${PWD}:/app \
+    -v /app/node_modules \
+    -p 3011:3000 \
+    -e CHOKIDAR_USEPOLLING=true \
+    user-frontend
+
+'''
