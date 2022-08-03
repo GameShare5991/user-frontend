@@ -19,8 +19,8 @@ function App() {
       </form>
       <h1>Login</h1>
       <form action="http://localhost:3001">
-      <label for="fname">First name:</label>
-      <input type="text" id="name" name="name" value="ryan" />
+      <label for="fname">ID:</label>
+      <input type="text" id="name" name="name" value="2Xe0wx7VU5oafuwfXBL1" />
       <input type="submit" value="Submit" />
       </form>
     </div>
